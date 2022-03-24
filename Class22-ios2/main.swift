@@ -29,6 +29,46 @@ var v4 = Vacation(duration: 3, location: "New York", attractions: ["Central park
 //v3.printSelf()
 //v4.printSelf()
 
+var v5 = GroupVacation()
+v5.participant = [("AAA", 34), ("BBB", 45), ("CCC", 56)]
+v5.guides = ["DDD" : 11, "EEE" : 22, "FFF" : 33]
+
+v5.participant.insert(("Guy", 50), at: 1)
+
+for p in v5.participant {
+    if p.name == "Guy" {
+        //print(p.age)
+    }
+}
+
+v5.guides["GUY"] = 44
+
+
+var cars: [String : String] = ["Avi" : "Mitsubishi", "Eli" : "BMW"]
+cars["Roman"] = "Lamborghini"
+
+//print(cars)
+//print(   (cars["Chen"] ?? "Taxi").last   )
+
+
+print(" - A - - - - ")
+if let car = cars["Chen"] {
+    print(car.first)
+
+}
+
+
+if (cars["Chen"] != nil) {
+    var cer: String! = cars["Chen"]
+    print(cer.first)
+}
+
+
+print(" - B - - - - ")
+
+
+
+
 
 
 

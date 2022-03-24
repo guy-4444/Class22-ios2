@@ -26,6 +26,7 @@ class Vacation {
 class GroupVacation: Vacation {
     
     var participant: [(name: String, age: Int)] = []
+    var guides: [String : Int] = [:]
     
     override init() {
         super.init()
