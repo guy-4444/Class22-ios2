@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8C40C82F27E8CC36002021F6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40C82E27E8CC36002021F6 /* main.swift */; };
 		8C40C83627E8CCBB002021F6 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C40C83527E8CCBB002021F6 /* Classes.swift */; };
+		8CDBAED927F1F8AC005C06F6 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBAED827F1F8AC005C06F6 /* Closures.swift */; };
+		8CDBAEDB27F217A4005C06F6 /* MyExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBAEDA27F217A4005C06F6 /* MyExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		8C40C82B27E8CC36002021F6 /* Class22-ios2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Class22-ios2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C40C82E27E8CC36002021F6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8C40C83527E8CCBB002021F6 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		8CDBAED827F1F8AC005C06F6 /* Closures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		8CDBAEDA27F217A4005C06F6 /* MyExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				8C40C82E27E8CC36002021F6 /* main.swift */,
 				8C40C83527E8CCBB002021F6 /* Classes.swift */,
+				8CDBAED827F1F8AC005C06F6 /* Closures.swift */,
+				8CDBAEDA27F217A4005C06F6 /* MyExtensions.swift */,
 			);
 			path = "Class22-ios2";
 			sourceTree = "<group>";
@@ -125,6 +131,8 @@
 			files = (
 				8C40C83627E8CCBB002021F6 /* Classes.swift in Sources */,
 				8C40C82F27E8CC36002021F6 /* main.swift in Sources */,
+				8CDBAED927F1F8AC005C06F6 /* Closures.swift in Sources */,
+				8CDBAEDB27F217A4005C06F6 /* MyExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

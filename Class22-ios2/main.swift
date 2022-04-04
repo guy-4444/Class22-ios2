@@ -1,5 +1,18 @@
 import Foundation
 
+var closures = Closures()
+//closures.start()
+
+var name: String = "Class055"
+var str = name.toTomCase()
+print(str)
+
+
+
+/*
+ 
+
+
 //var v1 = Vacation(1, "Rome", [])
 var v1 = Vacation()
 v1.duration = 7
@@ -66,7 +79,7 @@ if (cars["Chen"] != nil) {
 
 print(" - B - - - - ")
 
-
+ */
 
 
 
